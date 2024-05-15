@@ -3,6 +3,9 @@
 // VARIABLES
 //
 
+// Imports
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Moul&display=swap');
+
 // Colors
 $blue: #4183C4;
 
@@ -14,14 +17,30 @@ $gray: #666;
 $lightGray: #eee;
 $white: #fff;
 
+// Blues
+$berkeley: #003364; // darkest blue for contrast
+$indigoDye: #00417A; // main background
+$maya: #8cc9ff; // sky blue e.g., logo
+$alice: #f7fbff; // off-white
+
+// Green
+$lightGreen: #8cffab;
+$darkGreen: #00c434;
+
 // Font stacks
+$moul: 'Moul', Georgia, serif;
+$inter: 'Inter', Helvetica, Arial, sans-serif;
+
+
+// Old font stacks (remove)
 $helvetica: Helvetica, Arial, sans-serif;
 $helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $georgia: Georgia, serif;
 
+
 // Mobile breakpoints
 @mixin mobile {
-  @media screen and (max-width: 640px) {
+  @media screen and (max-width: 991px) {
     @content;
   }
 }

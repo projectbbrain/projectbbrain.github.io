@@ -18,25 +18,29 @@ html {
 }
 
 body {
-	background: $white;
-  font: 18px/1.4 $helvetica;
-  color: $darkGray;
+	background: $indigoDye;
+  font: 18px/1.4 $inter;
+  font-weight: 300;
+  color: $maya;
 }
 
-.container {
-  margin: 0 auto;
-  max-width: 740px;
-  padding: 0 10px;
-  width: 100%;
-}
+// .container {
+//   margin: 0 auto;
+//   max-width: 740px;
+//   padding: 0 10px;
+//   width: 100%;
+// }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
-  color: $darkerGray;
-  font-weight: bold;
+  font-family: $inter;
+  color: $alice;
+  font-weight: 500;
 
-  line-height: 1.7;
+  /*line-height: 1.7;
   margin: 1em 0 15px;
+  padding: 0;*/
+
+  margin: 0 0 1.1em;
   padding: 0;
 
   @include mobile {
@@ -45,7 +49,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 64px;
   a {
     color: inherit;
   }
@@ -151,12 +155,12 @@ img {
 //
 
 .wrapper-masthead {
-  margin-bottom: 50px;
+  /*margin-bottom: 50px;*/
 }
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
+  border-bottom: 1px solid $indigoDye;
 
   @include mobile {
     text-align: center;
@@ -172,7 +176,7 @@ img {
   @include mobile {
     float: none;
     display: block;
-    margin: 0 auto;
+    margin: 0.4em auto 0.6em;
   }
 
   img {
@@ -190,31 +194,149 @@ img {
   }
 }
 
+.section {
+  /*padding: 40px 0 120px;*/
+  padding: 8.2em 0;
+  p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 150%;
+  }
+  h2 {
+    font-family: $moul;
+    color: $berkeley;
+    font-size: 40px;
+    font-weight: 600;
+    @include mobile {
+      font-size: 28px;
+      margin-bottom: 0.5em;
+    }
+  }
+  h3 {
+    color: $berkeley;
+    font-weight: 500;
+  }
+  ul {
+    list-style-type: square;
+    font-size: 20px;
+    line-height: 145%;
+  }
+  ul li { padding: .5em 0; }
+  .btn-primary {
+    font-size: 18px;
+    background-color: $lightGreen;
+    border-color: $lightGreen;
+    color: $berkeley;
+  }
+  .btn-primary:hover {
+    background-color: $darkGreen;
+    border-color: $darkGreen;
+  }
+
+  @include mobile {
+    padding: 2.8em 0;
+  }
+}
+
+.section-banner {
+  p {
+    font-size: 20px;
+  }
+  h1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 140%;
+    margin-bottom: 1.1em;
+    margin-top: 0;
+    @include mobile {
+      font-size: 28px;
+      margin: .6em 0 .2em;
+      text-align: center;
+    }
+  }
+  img {
+    @include mobile {
+      max-height: 300px;
+    }
+  }
+  .btn-primary {
+    margin: 2em 0;
+    @include mobile {
+      margin: .6em 0;
+    }
+  }
+  .btn-container {
+    text-align: left;
+    @include mobile {
+      text-align: center;
+    }
+  }
+}
+
+.section-whatwedo {
+  background: $maya;
+  color: $berkeley;
+  h3 {
+    font-size: 24px;
+    padding: 1.4em 0;
+    @include mobile {
+      font-size: 20px;
+    }
+  }
+  h4 {
+    color: $berkeley;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 1.4em 0 .4em;
+  }
+}
+
+.method-desc {
+  font-size: 18px !important;
+  margin-bottom: 3.4em;
+}
+
+.section-about {
+  background: $lightGreen;
+  color: $berkeley;
+}
+
+.section-contact {
+  background: $indigoDye;
+
+  h3 {
+    color: $alice;
+    font-weight: 400;
+    font-size: 24px;
+  }
+}
+
 .site-name {
   margin: 0;
-  color: $darkGray;
+  color: $maya;
   cursor: pointer;
-  font-family: $helveticaNeue;
+  font-family: $moul;
   font-weight: 300;
-  font-size: 28px;
+  font-size: 32px;
   letter-spacing: 1px;
 }
 
 .site-description {
   margin: -5px 0 0 0;
-  color: $gray;
+  color: $maya;
   font-size: 16px;
 
   @include mobile {
     margin: 3px 0;
+    display: none;
   }
 }
 
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $helveticaNeue;
-  font-size: 18px;
+  font-family: $inter;
+  font-size: 22px;
 
   @include mobile {
     float: none;
@@ -224,15 +346,18 @@ nav {
   }
 
   a {
-    margin-left: 20px;
-    color: $darkGray;
+    margin-left: 2.2em;
+    color: $maya;
     text-align: right;
-    font-weight: 300;
+    font-weight: 400;
     letter-spacing: 1px;
+    &:hover, &:active {
+      color: $lightGreen;
+    }
 
     @include mobile {
       margin: 0 10px;
-      color: $blue;
+      color: $maya;
     }
   }
 }
@@ -272,15 +397,19 @@ nav {
 }
 
 .wrapper-footer {
-  margin-top: 50px;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
+  margin-top: 20px;
+  background-color: $indigoDye;
 }
 
 footer {
   padding: 20px 0;
   text-align: center;
+}
+
+.footer-text {
+  color: $maya;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
