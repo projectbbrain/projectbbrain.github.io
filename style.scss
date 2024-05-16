@@ -247,7 +247,7 @@ img {
   }
   h1 {
     font-size: 48px;
-    font-weight: 700;
+    font-weight: 600;
     line-height: 140%;
     margin-bottom: 1.1em;
     margin-top: 0;
@@ -306,11 +306,17 @@ img {
 
 .section-contact {
   background: $indigoDye;
-
   h3 {
     color: $alice;
     font-weight: 400;
+    font-size: 28px;
+  }
+  a {
+    color: $columbia;
+    font-weight: 400;
     font-size: 24px;
+    text-align: center;
+    text-decoration: underline;
   }
 }
 
@@ -414,6 +420,28 @@ footer {
   font-size: 18px;
   font-weight: 400;
 }
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  background-color: $alice;
+  color: $indigoDye;
+  border: none;
+  border-radius: 20%;
+  text-align: center;
+  font-size: 24px;
+  cursor: pointer;
+  display: none; /* Hidden by default */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.scroll-to-top:hover {
+  background-color: $columbia; /* Darker shade on hover */
+}
+
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start

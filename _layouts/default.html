@@ -30,7 +30,7 @@
           <nav>
             <a href="#what-we-do">What We Do</a>
             <a href="#about">About</a>
-            <a href="{{ site.baseurl }}/contact">Contact Us</a>
+            <a href="#contact">Contact Us</a>
           </nav>
         </header>
       </div>
@@ -66,6 +66,28 @@
             });
         });
     });
+    </script>
+
+    <script>
+    // Get the button
+    const scrollToTopBtn = document.getElementById("scroll-to-top-btn");
+
+    // Show the button when the user scrolls down 100px from the top of the document
+    window.onscroll = function() {
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+            scrollToTopBtn.style.display = "block";
+        } else {
+            scrollToTopBtn.style.display = "none";
+        }
+    };
+
+    // Scroll to the top of the document when the user clicks the button
+    scrollToTopBtn.onclick = function() {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth" // Smooth scrolling
+        });
+    };
     </script>
 
     {% include analytics.html %}
