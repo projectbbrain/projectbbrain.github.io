@@ -197,6 +197,64 @@ img {
   }
 }
 
+.site-name {
+  margin: 0;
+  color: $maya;
+  cursor: pointer;
+  font-family: $moul;
+  font-weight: 300;
+  font-size: 32px;
+  letter-spacing: 1px;
+}
+
+.site-description {
+  margin: -5px 0 0 0;
+  color: $maya;
+  font-size: 16px;
+
+  @include mobile {
+    margin: 3px 0;
+    display: none;
+  }
+}
+
+nav {
+  float: right;
+  margin-top: 23px; // @TODO: Vertically middle align
+  font-family: $inter;
+  font-size: 22px;
+
+  @include mobile {
+    float: none;
+    margin-top: 9px;
+    display: block;
+    font-size: 16px;
+  }
+
+  a {
+    margin-left: 2.2em;
+    color: $maya;
+    text-align: right;
+    font-weight: 400;
+    letter-spacing: 1px;
+    &:hover, &:active {
+      color: $lightGreen;
+    }
+
+    @include mobile {
+      margin: 0 10px;
+      color: $maya;
+    }
+  }
+  .lang-select {
+    font-size: 75%;
+  }
+}
+
+//
+// .main
+//
+
 .section {
   /*padding: 40px 0 120px;*/
   padding: 8.2em 0;
@@ -247,7 +305,7 @@ img {
   }
   h1 {
     font-size: 48px;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 140%;
     margin-bottom: 1.1em;
     margin-top: 0;
@@ -320,61 +378,6 @@ img {
   }
 }
 
-.site-name {
-  margin: 0;
-  color: $maya;
-  cursor: pointer;
-  font-family: $moul;
-  font-weight: 300;
-  font-size: 32px;
-  letter-spacing: 1px;
-}
-
-.site-description {
-  margin: -5px 0 0 0;
-  color: $maya;
-  font-size: 16px;
-
-  @include mobile {
-    margin: 3px 0;
-    display: none;
-  }
-}
-
-nav {
-  float: right;
-  margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $inter;
-  font-size: 22px;
-
-  @include mobile {
-    float: none;
-    margin-top: 9px;
-    display: block;
-    font-size: 16px;
-  }
-
-  a {
-    margin-left: 2.2em;
-    color: $maya;
-    text-align: right;
-    font-weight: 400;
-    letter-spacing: 1px;
-    &:hover, &:active {
-      color: $lightGreen;
-    }
-
-    @include mobile {
-      margin: 0 10px;
-      color: $maya;
-    }
-  }
-}
-
-//
-// .main
-//
-
 .posts > .post {
   padding-bottom: 2em;
   border-bottom: 1px solid $lightGray;
@@ -425,14 +428,14 @@ footer {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
   background-color: $alice;
   color: $indigoDye;
   border: none;
-  border-radius: 20%;
+  border-radius: 40%;
   text-align: center;
-  font-size: 24px;
+  font-size: 18px;
   cursor: pointer;
   display: none; /* Hidden by default */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);

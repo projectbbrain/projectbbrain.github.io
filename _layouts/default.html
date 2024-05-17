@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="{{ page.lang | default: 'en'}}">
   <head>
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
 
@@ -23,24 +23,25 @@
           <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.baseurl }}/images/logo.png" /></a>
 
           <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
+            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.data[page.lang].site.name }}</a></h1>
+            <p class="site-description">{{ site.data[page.lang].site.desc }}</p>
           </div>
 
           <nav>
-            <a href="#what-we-do">What We Do</a>
-            <a href="#about">About</a>
-            <a href="#contact">Contact Us</a>
+            <a href="#what-we-do">{{ site.data[page.lang].menu.what-we-do }}</a>
+            <a href="#about">{{ site.data[page.lang].menu.about }}</a>
+            <a href="#contact">{{ site.data[page.lang].menu.contact }}</a>
+            {% if page.lang == 'en' %}
+              <a href="{{ site.baseurl }}/fr/"><span class='lang-select'>Fr</span></a>
+            {% else if page.lang == 'fr' %}
+              <a href="{{ site.baseurl }}/"><span class='lang-select'>En</span></a>
+            {% endif %}
           </nav>
         </header>
       </div>
     </div>
 
     {{ content }}
-
-    <!-- <div id="main" role="main" class="container-lg">
-
-    </div> -->
 
     <div class="wrapper-footer">
       <div class="container">
