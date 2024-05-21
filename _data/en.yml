@@ -11,16 +11,17 @@ menu:
   contact: "Contact Us"
 
 banner:
-  title: "Get the answers you need."
-  pitch: "Say goodbye to guesswork and hello to actionable strategies. Our accessible, customized research solutions will help empower your creative decisions and maximize your potential."
+  title: "Get the answers you need to elevate your game."
+  pitch: "Say goodbye to guesswork and hello to actionable strategies. Our accessible, customized research solutions will help empower your creative decisions and maximize your game's potential."
   button-label: "Let's get started"
 
 what-we-do:
   title: "What we do"
   blurb: "
-    <p>Hey there. At [Big Brain] we're all about helping game creators like you bring your vision to life. From the first spark of an idea to the big launch day, our research is here to support you every step of the way.</p>
-    <p>Our goal is simple: to help you solve problems and shed some light on the path forward. We know every game is unique, so we work closely with you to understand your goals and tailor our approach accordingly. Whether you're a one-person indie or a big-name AAA studio, we've got your back.</p>
-    <p>So what can you expect from us here at [Big Brain]? Clear and actionable insights that empower you to make informed decisions and take your game to the next level.</p>
+    <p>Hey there. At [Big Brain] our goal is simple: to help game creators like you solve problems and chart the best path forward.</p>
+    <p>We're a boutique agency, so we work closely with you to understand your goals and tailor our approach accordingly. Whether you're a one-person indie or a big-name AAA studio, our research has got your back every step of the way.</p>
+    <p>So what can you expect from us here at [Big Brain]?</p>
+    <p><strong>Clear</strong> and <strong>actionable</strong> insights that empower you to make informed decisions and take your game to the next level.</p>
   "
   subtitle: "Here's a few of the things that we can do for you."
   method-1-title: "Concept exploration"
