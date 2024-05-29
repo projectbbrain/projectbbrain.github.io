@@ -1,7 +1,7 @@
 # _data/en.yml
 
 site:
-  name: "Big Brain"
+  name: "Moonforge"
   desc: "A games research agency"
 
 #menu
@@ -18,9 +18,9 @@ banner:
 what-we-do:
   title: "What we do"
   blurb: "
-    <p>Hey there. At [Big Brain] our goal is simple: to help game creators like you solve problems and chart the best path forward.</p>
+    <p>Hey there. Here at Moonforge our goal is simple: to help game creators like you solve problems and chart the best path forward.</p>
     <p>We're a boutique agency, so we work closely with you to understand your goals and tailor our approach accordingly. Whether you're a one-person indie or a big-name AAA studio, our research has got your back every step of the way.</p>
-    <p>So what can you expect from us here at [Big Brain]?</p>
+    <p>So what can you expect from us here at Moonforge?</p>
     <p><strong>Clear</strong> and <strong>actionable</strong> insights that empower you to make informed decisions and take your game to the next level.</p>
   "
   subtitle: "Here's a few of the things that we can do for you."
@@ -32,7 +32,7 @@ what-we-do:
   method-3-desc: "Understand player needs, preferences, and behaviours. Evaluate how players experience your game."
 
 about:
-  title: "The Big Brain difference"
+  title: "The Moonforge difference"
   blurb: "We're not just another research agency. Here's why:"
   list: "
     <li><strong>Gaming gurus:</strong> We're specialists in games research, and our team brings that extra spark of expertise to every project.</li>

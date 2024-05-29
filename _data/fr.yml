@@ -1,8 +1,8 @@
 # _data/en.yml
 
 site:
-  name: "Big Brain"
-  desc: "Une agence de recherche"
+  name: "Moonforge"
+  desc: "Agence de recherche"
 
 # menu
 menu:
@@ -18,7 +18,7 @@ banner:
 what-we-do:
   title: "Notre approche"
   blurb: "
-    <p>Hey there. At [Big Brain] we're all about helping game creators like you bring your vision to life. From the first spark of an idea to the big launch day, our research is here to support you every step of the way.</p>
+    <p>Hey there. At Moonforge we're all about helping game creators like you bring your vision to life. From the first spark of an idea to the big launch day, our research is here to support you every step of the way.</p>
     <p>Our goal is simple: to help you solve problems and shed some light on the path forward. We know every game is unique, so we work closely with you to understand your goals and tailor our approach accordingly. Whether you're a one-person indie or a big-name AAA studio, we've got your back.</p>
     <p>So what can you expect from us here at [Big Brain]? Clear and actionable insights that empower you to make informed decisions and take your game to the next level.</p>
   "

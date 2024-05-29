@@ -201,7 +201,7 @@ img {
   margin: 0;
   color: $maya;
   cursor: pointer;
-  font-family: $moul;
+  font-family: $freeman;
   font-weight: 300;
   font-size: 32px;
   letter-spacing: 1px;
@@ -264,10 +264,10 @@ nav {
     line-height: 150%;
   }
   h2 {
-    font-family: $moul;
+    font-family: $inter-tight;
     color: $berkeley;
     font-size: 40px;
-    font-weight: 600;
+    font-weight: 700;
     @include mobile {
       font-size: 28px;
       margin-bottom: 0.5em;
@@ -304,8 +304,9 @@ nav {
     font-size: 20px;
   }
   h1 {
+    font-family: $inter-tight;
     font-size: 48px;
-    font-weight: 500;
+    font-weight: 520;
     line-height: 140%;
     margin-bottom: 1.1em;
     margin-top: 0;
@@ -338,6 +339,8 @@ nav {
   background: $maya;
   color: $berkeley;
   h3 {
+    font-family: $inter-tight;
+    font-weight: 525;
     font-size: 24px;
     padding: 2.2em 0 1.4em;
     @include mobile {
@@ -346,7 +349,8 @@ nav {
   }
   h4 {
     color: $berkeley;
-    font-weight: 600;
+    font-family: $inter-tight;
+    font-weight: 525;
     font-size: 18px;
     padding: 1.4em 0 .4em;
   }
