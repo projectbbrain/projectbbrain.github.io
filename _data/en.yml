@@ -2,7 +2,7 @@
 
 site:
   name: "Moonforge"
-  desc: "A games research agency"
+  desc: "Gaming Insights"
 
 #menu
 menu:
@@ -11,35 +11,39 @@ menu:
   contact: "Contact Us"
 
 banner:
-  title: "Get the answers you need to elevate your game."
-  pitch: "Say goodbye to guesswork and hello to actionable insights. Our accessible, customized research solutions will help empower your creative decisions and maximize your game's potential."
-  button-label: "Let's get started"
+  title: "Making game insights actionable, accurate, and accessible."
+  pitch: "Moonforge specializes in bespoke games research solutions, accessible for every studio. We leverage our expertise with top publishers to deliver deep insights that have real impact."
+  button-label: "Come talk to us"
 
 what-we-do:
   title: "What we do"
   blurb: "
-    <p>Hey there. Here at Moonforge our goal is simple: to help game creators like you solve problems and chart the best path forward.</p>
-    <p>We're a boutique agency, so we work closely with you to understand your goals and tailor our approach accordingly. Whether you're a one-person indie or a big-name AAA studio, our research has got your back every step of the way.</p>
+    <p>Hey there. It can be a challenge to find reliable data to understand your players and make confident decisions about your game. Here at Moonforge our goal is simple: to make game insights actionable, accurate, and accessible.</p>
+    <p>Whether you're indie or a AAA studio, our research has got your back at every stage of your game's lifecycle, from ideation to launch and live operation.</p>
     <p>So what can you expect from us here at Moonforge?</p>
     <p><strong>Clear</strong> and <strong>actionable</strong> insights that empower you to make informed decisions and take your game to the next level.</p>
   "
   subtitle: "Here's a few of the things that we can do for you."
   method-1-title: "Concept exploration"
   method-1-desc: "Investigate the potential of game concepts, ensuring alignment with player needs and market demands."
-  method-2-title: "Market research"
-  method-2-desc: "Monitor and analyze emerging trends in the market. Intelligence to help you stay ahead of the competition."
-  method-3-title: "User research"
+  method-2-title: "Market intelligence"
+  method-2-desc: "Monitor and analyze emerging trends in the market to help you stay ahead of the competition."
+  method-3-title: "Player insights"
   method-3-desc: "Understand player needs, preferences, and behaviours. Evaluate how players experience your game."
 
 about:
   title: "The Moonforge difference"
-  blurb: "We're not just another research agency. Here's why:"
+  blurb: "
+    <p>We are industry veterans.</p>
+    <p>We bring you an outside eye with insider know-how.</p>
+    <p>We have a proven approach backed by a history of success with top-tier publishers.</p>
+    <p>Moonforge is not just another research agency. Here's why:</p>"
   list: "
-    <li><strong>Gaming gurus:</strong> We're specialists in games research, and our team brings that extra spark of expertise to every project.</li>
+    <li><strong>Gaming gurus:</strong> Other agencies do research, we do gaming research. We're specialists in games, and our team brings that extra spark of expertise to every project.</li>
     <li><strong>Custom solutions:</strong> No cookie-cutter approaches here. We tailor our services to fit your needs. You're not just a client, you're a partner.</li>
     <li><strong>Accessible service:</strong> Whether you're indie or AAA, and whether you're in Montréal, Toronto, or anywhere else in the world, we're here for you.</li>
     <li><strong>Data-informed:</strong> Our actionable insights help you make more informed decisions, eliminating the guesswork.</li>
   "
 
 contact:
-  message: "Sound good? Let's chat and see how we can make research work for you."
+  message: "Let's chat and see how we can make research work for you."

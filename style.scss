@@ -264,9 +264,9 @@ nav {
     line-height: 150%;
   }
   h2 {
-    font-family: $inter-tight;
+    font-family: $freeman;
     color: $berkeley;
-    font-size: 40px;
+    font-size: 48px;
     font-weight: 700;
     @include mobile {
       font-size: 28px;
@@ -351,7 +351,7 @@ nav {
     color: $berkeley;
     font-family: $inter-tight;
     font-weight: 525;
-    font-size: 18px;
+    font-size: 20px;
     padding: 1.4em 0 .4em;
   }
 }
