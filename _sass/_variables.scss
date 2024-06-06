@@ -27,20 +27,14 @@ $columbia: #d1e8ff; // shade of alice
 
 // Green
 $lightGreen: #8cffab;
-$darkGreen: #00c434;
+
+// Tan
+$jasmine: #ffe48a;
 
 // Font stacks
-//$moul: 'Moul', Georgia, serif;
 $inter: 'Inter', Helvetica, Arial, sans-serif;
 $inter-tight: 'Inter Tight', 'Inter', Helvetica, Arial, sans-serif;
 $freeman: 'Freeman', serif;
-
-
-// Old font stacks (remove)
-$helvetica: Helvetica, Arial, sans-serif;
-$helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$georgia: Georgia, serif;
-
 
 // Mobile breakpoints
 @mixin mobile {
