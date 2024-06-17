@@ -2,7 +2,7 @@
 
 site:
   name: "Moonforge"
-  desc: "Agence de recherche"
+  desc: "Insights"
 
 # menu
 menu:
@@ -11,34 +11,39 @@ menu:
   contact: "Contact"
 
 banner:
-  title: "Obtenez les réponses dont vous avez besoin."
-  pitch: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-  button-label: "Commençons !"
+  title: "Optimisez votre jeu avec des conseils clairs et concrets."
+  pitch: "Moonforge est spécialisé dans la recherche pour jeux vidéo, avec la volonté d’être accessible à tous les studios. Nous nous appuyons sur une expertise de l’industrie et de la recherche issues des plus grands éditeurs de jeux vidéo pour vous fournir des analyses pertinentes qui impactent positivement votre jeu."
+  button-label: "Venez discuter avec nous"
 
 what-we-do:
   title: "Notre approche"
   blurb: "
-    <p>Hey there. At Moonforge we're all about helping game creators like you bring your vision to life. From the first spark of an idea to the big launch day, our research is here to support you every step of the way.</p>
-    <p>Our goal is simple: to help you solve problems and shed some light on the path forward. We know every game is unique, so we work closely with you to understand your goals and tailor our approach accordingly. Whether you're a one-person indie or a big-name AAA studio, we've got your back.</p>
-    <p>So what can you expect from us here at [Big Brain]? Clear and actionable insights that empower you to make informed decisions and take your game to the next level.</p>
+    <p>Il est parfois difficile de trouver des informations fiables sur lesquelles s’appuyer solidement pour comprendre vos joueurs et prendre des décisions importantes concernant votre jeu. Chez Moonforge, notre objectif est simple : optimiser votre jeu avec des conseils clairs et concrets.</p>
+    <p>Que vous soyez un studio indépendant ou AAA, nos analyses vous accompagnent à chaque étape du cycle de vie de votre jeu, de la création jusqu’au lancement et au-delà.</p>
+    <p>Qu’attendre de Moonforge ?</p>
+    <p>Des analyses <strong>claires</strong> et des recommandations <strong>concrètes</strong> qui vous permettent de prendre des décisions éclairées concernant votre jeu pour en assurer le plein potentiel.</p>
   "
   subtitle: "Voici quelques exemples de ce que nous pouvons faire pour vous."
-  method-1-title: "Concept exploration"
-  method-1-desc: "Investigate the potential of game concepts, ensuring alignment with player needs and market demands."
-  method-2-title: "Market research"
-  method-2-desc: "Monitor and analyze emerging trends in the market. Intelligence to help you stay ahead of the competition."
-  method-3-title: "User research"
-  method-3-desc: "Understand player needs, preferences, and behaviours. Evaluate how players experience your game."
+  method-1-title: "Test de concept"
+  method-1-desc: "Mesurer le potentiel de votre concept et analyser les attentes des joueurs."
+  method-2-title: "Intelligence compétitive"
+  method-2-desc: "Identifier les bonnes pratiques, tendances et opportunités de l’industrie pour vous démarquer de la concurrence."
+  method-3-title: "Player insights"
+  method-3-desc: "Comprendre les besoins, préférences et comportements de vos joueurs. Évaluer ce que les joueurs pensent de votre jeu."
 
 about:
-  title: "La différence du Big Brain"
-  blurb: "We're not just another research agency. Here's why:"
+  title: "La Recette Moonforge"
+  blurb: "
+    <p>Nous sommes des vétérans de l'industrie.</p>
+    <p>Nous vous apportons un regard extérieur avec un savoir-faire d'initié.</p>
+    <p>Notre approche a fait ses preuves parmi des éditeurs reconnus.</p>
+    <p>Moonforge n'est pas une agence comme les autres. Voilà pourquoi:</p>"
   list: "
-    <li><strong>Gaming gurus:</strong> We're specialists in games research, and our team brings that extra spark of expertise to every project.</li>
-    <li><strong>Custom solutions:</strong> No cookie-cutter approaches here. We tailor our services to fit your needs. You're not just a client, you're a partner.</li>
-    <li><strong>Accessible service:</strong> Whether you're indie or AAA, and whether you're in Montréal, Toronto, or anywhere else in the world, we're here for you.</li>
-    <li><strong>Data-informed:</strong> Our actionable insights help you make more informed decisions, eliminating the guesswork.</li>
+    <li><strong>Des experts du jeu vidéo :</strong> Les autres agences font de la recherche, nous faisons de la recherche en jeux vidéo. Nous sommes des spécialistes de l’industrie, et notre équipe apporte cette expertise supplémentaire à chaque projet.</li>
+    <li><strong>Des solutions personnalisées :</strong> Pas d'approche toute faite. Nous adaptons nos services à vos besoins. Vous n'êtes pas juste un client, vous êtes un partenaire.</li>
+    <li><strong>Un service accessible :</strong> Que vous soyez un studio indépendant ou AAA, que vous soyez à Montréal, Toronto ou ailleurs dans le monde, nous sommes là pour vous aider.</li>
+    <li><strong>Des analyses pertinentes :</strong> Nos recommandations claires et concrètes vous aident à prendre des décisions pleinement éclairées afin que vous soyez confiants dans votre direction.</li>
   "
 
 contact:
-  message: "Cela vous convient ? Discutons ensemble et voyons comment nous pouvons faire travailler la recherche pour vous."
+  message: "Discutons ensemble."
