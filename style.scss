@@ -188,7 +188,7 @@ img {
 
 .site-name {
   margin: 0;
-  color: $maya;
+  color: $white;
   cursor: pointer;
   font-family: $freeman;
   font-weight: 300;
@@ -198,7 +198,7 @@ img {
 
 .site-description {
   margin: -5px 0 0 0;
-  color: $maya;
+  color: $white;
   font-size: 16px;
 
   @include mobile {
