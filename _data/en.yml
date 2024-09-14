@@ -4,11 +4,14 @@ site:
   name: "Moonforge"
   desc: "Insights"
 
-#menu
+# --- MENU ---
+
 menu:
   what-we-do: "What We Do"
   about: "About"
   contact: "Contact Us"
+
+# --- MAIN PAGE ---
 
 banner:
   title: "Making game insights actionable, accurate, and accessible."
@@ -47,3 +50,142 @@ about:
 
 contact:
   message: "Let's chat and see how we can make research work for you."
+
+
+# --- FAQ PAGE ---
+
+faq:
+  title: "Playtesting with Moonforge"
+  subtitle: "Frequently Asked Questions"
+  item-1-q: "Who are Moonforge Insights?"
+  item-1-a: "We’re a team of research experts specializing in the games industry. We support game developers by gathering feedback from players. Creating great games is a tough job, and developers need to know what’s going well and what could be better. That’s where we come in, providing the insights they need to make their games the best they can be."
+  item-2-q: "What is the Moon Squad?"
+  item-2-a: "The Moon Squad is our research panel for video games, a group of gamers like you that we invite to take part in studies. Sign up, and when a game test comes up which matches your interests and experience, you'll get to play, share your feedback, and be compensated for your time."
+  item-3-q: "How do I sign up to participate in studies?"
+  item-3-a: "Just <a href='https://moonforgeinsights.com/signup/'>click here</a> to fill out our sign-up survey. It will give us some details about your gaming experience and let us know the best way to contact you."
+  item-4-q: "Who is eligible to sign up?"
+  item-4-a: "
+    <p>We’re looking for players with all kinds of experiences, backgrounds, and abilities. Whether you’re a pro or just play occasionally, we test a wide range of games and are always looking for different perspectives. We’ll likely be doing research that’s a great match for you.</p>
+    <p>We do have the following eligibility requirements:</p>
+    <ul>
+      <li><strong>Age</strong>: At present, we are only accepting participants aged 18 or older.</li>
+      <li><strong>Location</strong>: We conduct both remote and on-site research. On-site studies take place in Toronto or Montréal, in Canada.</li>
+      <li><strong>Language</strong>: We conduct our research in English and French, unless otherwise specified.</li>
+    </ul>
+    <p>If you're not sure if you're eligible, you can email us your questions at <a href='mailto:playtests@moonforgeinsights.com'>playtests@moonforgeinsights.com</a>.</p>
+    "
+  item-5-q: "How does it work?"
+  item-5-a: "
+    <p>After you sign up, keep an eye on your inbox for emails from us about new studies that match your gaming experience. Each study is a little different, so we might ask you some more details about your gaming background to make sure it’s the right fit.</p>
+    <p>If you’re selected for the study, you’ll get another email with everything you need to know. Make sure to hit reply to that and confirm your spot!</p>
+    <p>In most cases you’ll also have to sign a non-disclosure agreement before you start playing.</p>
+    "
+  item-6-q: "What kinds of research can I participate in?"
+  item-6-a: "
+    <p>We conduct a variety of research types. The details can vary and will be communicated to you when you’re informed about a new opportunity. If it’s an on-site study, you’ll need to be able to attend in-person (typically in either Toronto or Montréal, Canada).</p>
+    <p>Here's a quick overview of some studies you might be asked to participate in:</p>
+    <ul>
+      <li><strong>Playtest</strong>: You'd play a game (or something similar) and answer questions about your experience, usually in the form of a survey.</li>
+      <li><strong>Usability</strong>: You'd be asked to complete tasks in a game (or something similar) and interact one-on-one with one of our researchers.</li>
+      <li><strong>Interview</strong>: You'd chat with one of our researchers about various games-related topics.</li>
+      <li><strong>Survey</strong>: You'd receive a link in your email and fill out a survey on your own time.</li>
+      <li><strong>Focus group</strong>: You'd joing a group discussion with other players and one of our researchers about various games-related topics.</li>
+    </ul>
+    "
+  item-7-q: "What do I get for participating in a study?"
+  item-7-a: "You’ll receive a gratuity for participating. You'll generally have a choice from a variety of gift cards and other redemption options. The amount depends on the study you participate in, but we’ll let you know what this is beforehand. In general, longer sessions will tend to have a higher gratuity. However, this is not an hourly rate and can vary. We send the gratuities to you through a third-party service, so we don't need to collect any of your banking information."
+  item-8-q: "How do you handle my data? Is it safe?"
+  item-8-a: "Your data is safe and secure with us. We don’t share any of your personal data with anyone, and the data we do collect is only used to contact you about relevant research opportunities. You can read our full privacy policy <a href='https://moonforgeinsights.com/privacy-policy/'>here</a>."
+  item-9-q: "How can I opt out if I want to stop receiving emails about research opportunities?"
+  item-9-a: "You can opt out at any time by sending us an email with your request at <a href='mailto:playtests@moonforgeinsights.com'>playtests@moonforgeinsights.com</a>. Emails you receive from us will also contain information about how to unsubscribe."
+  item-10-q: "Is this a job?"
+  item-10-a: "No, participating in our studies is not related to employment. However, you will receive a gratuity for any studies you take part in!"
+  item-11-q: "How often will I get to participate in a research study?"
+  item-11-a: "This depends on the number of studies we’re running and if your gaming experience matches what we’re testing. It's important that your survey responses reflect your real gaming habits, as that's the best way to increase your chances of being matched with a study. You might be eligible every few months or so if you respond to the invites often."
+  item-12-q: "I signed up, but I haven't heard back about any invites to research studies!"
+  item-12-a: "Don't worry, if you filled out the <a href='https://moonforgeinsights.com/signup/'>form</a>, you are already registered in the Moon Squad! We’ll reach out about a study when your gaming profile matches what we need for a study, which depends on the types of games that we’re testing at the time—but spaces might fill up fast! It might just be that we haven’t had the right match yet. Make sure to be as accurate as possible when filling out your profile, so we can match you with the right studies. Also, make sure to check your junk mail just in case!"
+  item-13-q: "Who do I reach out to if I have more questions?"
+  item-13-a: "You can always send us an email at <a href='mailto:playtests@moonforgeinsights.com'>playtests@moonforgeinsights.com</a>. We're here to help with any questons you have!"
+  contact: "Still have questions? Reach out to us any time."
+
+
+  # --- PRIVACY POLICY ---
+
+privacypolicy:
+  title: "Privacy Policy"
+  date: "Last updated September 12, 2024"
+  preamble: "<p>Moonforge Insights is strongly committed to protecting your privacy and ensuring your personal information is handled in a safe and responsible manner. Moonforge Insights shall comply with all laws, government guidelines, and other regulations governing the protection of personal data. Proper management of personal data is one of our core principles.</p>"
+  sec-1-title: "1. Introduction"
+  sec-1-body: "<p>This privacy policy outlines how we collect, use, and safeguard your personal information in compliance with applicable laws, including PIPEDA, P-39.1, CASL, and Quebec Bill 64.</p>"
+  sec-2-title: "2. Information we collect"
+  sec-2-body: "
+    <p>We collect the following personal information from participants who sign up to our panel:</p>
+    <ul>
+      <li>Name</li>
+      <li>Phone number</li>
+      <li>Email address</li>
+      <li>Age</li>
+      <li>City</li>
+      <li>Gender (optional)</li>
+      <li>Gaming habits and preferences (e.g., games played, gaming systems used, frequency of gameplay)</li>
+    </ul>
+    "
+  sec-3-title: "3. How we use your information"
+  sec-3-body: "
+    <p>Your personal information will be used for the following purposes:</p>
+    <ul>
+      <li>To contact you for participation in our research studies.</li>
+      <li>To send you a gratuity for your participation in a study.</li>
+      <li>To understand your gaming habits and preferences to better match you with relevant studies.</li>
+      <li>To improve our services and tailor our research to the needs of the gaming community.</li>
+    </ul>
+    "
+  sec-4-title: "4. Legal basis for processing"
+  sec-4-body: "<p>We process your personal information based on your consent, which you provide when signing up to join our panel. You have the right to withdraw your consent at any time.</p>"
+  sec-5-title: "5. Sharing your information"
+  sec-5-body: "<p>We do not share your personal information with third parties except as required by law or with your explicit consent. Your information may be shared with our research partners strictly for the purposes of conducting studies.</p>"
+  sec-6-title: "6. International data transfers"
+  sec-6-body: "<p>Your personal information may be transferred to and stored on servers located outside of Canada, depending on the location of the data centres used by our service providers (such as Microsoft). These transfers are necessary to provide you with our services. We ensure that any service providers handling your data maintain a level of protection comparable to that required under applicable laws.</p>"
+  sec-7-title: "7. Data retention"
+  sec-7-body: "<p>We retain your personal information only for as long as necessary to fulfill the purposes for which it was collected, and to comply with legal obligations.</p>"
+  sec-8-title: "8. Your rights"
+  sec-8-body: "
+    <p>You have the following rights concerning your personal information:</p>
+    <ul>
+      <li><strong>Access</strong>: You may request access to your data.</li>
+      <li><strong>Correction</strong>: You may request corrections to your data.</li>
+      <li><strong>Deletion</strong>: You may request deletion of your data.</li>
+      <li><strong>Restriction</strong>: You may request a restriction on the processing of your data.</li>
+    </ul>
+    <p>You can exercise these rights at any time by contacting us at <a href='mailto:playtests@moonforgeinsights.com'>playtests@moonforgeinsights.com</a>.</p>
+    "
+  sec-9-title: "9. Security measures"
+  sec-9-body: "
+    <p>We take the security of your personal information seriously and have implemented a variety of measures to protect it from unauthorized access, use, alteration, and disclosure. These measures are designed to meet or exceed industry standards and to comply with applicable laws and regulations.</p>
+    <p>Where possible, personal information is anonymized to reduce the risk of identification in the event of a data breach or unauthorized access. We collect and retain only the minimum amount of personal information necessary to fulfill the purposes identified in this policy.</p>
+    <p>All employees with access to personal information receive training on our security policies and best practices for safeguarding personal information.</p>
+    <p>In the event of a data breach that may affect your personal information, we will notify you and relevant authorities as required by law. Notifications will be made promptly and will include details about the breach, the information involved, and the steps we are taking to mitigate the impact.</p>
+    "
+  sec-10-title: "10. Data from minors"
+  sec-10-body: "
+    <p>Our services are intended only for individuals aged 18 or older. We do not knowingly collect personal information from individuals under the age of 18. If we become aware that we have inadvertently collected data from a minor, we will take immediate steps to delete that information from our records.</p>
+    <p>If you are a parent or guardian and believe that your child has provided us with personal information, please contact us at <a href='mailto:playtests@moonforgeinsights.com'>playtests@moonforgeinsights.com</a> so that we can take the necessary actions.</p>
+    "
+  sec-11-title: "11. Changes to this policy"
+  sec-11-body: "<p>We may update this privacy policy from time to time. Any changes will be posted on our website, and we will notify you of significant changes via email.</p>"
+  contact: "If you have any questions or concerns about this privacy policy or your personal information, please contact us at:"
+
+
+  # --- SIGN UP ---
+
+signup:
+  title: "Playtesting with Moonforge"
+  subtitle: "Join the Moon Squad and help shape the future of gaming!"
+  pitch: "<p>Want to play unreleased games and help make them better? By joining the Moon Squad — our community of gamers — you'll get exclusive invites to test exciting new games, share your thoughts, and get compensated for your time.</p>"
+  button-label: "Sign up now"
+  moreinfo: "
+    <p>We're looking for players with all kinds of experiences, backgrounds, and abilities. Whether you're a seasoned pro or just play for fun now and then, your feedback matters. Have your voice heard and help make positive changes!</p>
+    <p>Sign up for the Moon Squad today and join our community of passionate gamers who are helping to create the next big thing in gaming!</p>
+  "
+  faq: "<p>More questions? Read our FAQ <a href='https://moonforgeinsights.com/faq/'>here</a>.</p>"
+  contact: "Want to know more? Get in touch with us."

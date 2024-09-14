@@ -1,0 +1,59 @@
+---
+layout: default
+---
+
+{% assign lang = page.lang | default: 'en' %}
+
+<div class='section section-policy-header'>
+  <div class='container'>
+    <h1>{{ site.data[lang].privacypolicy.title }}</h1>
+    <h3>{{ site.data[lang].privacypolicy.date }}</h3>
+  </div>
+</div>
+
+<div class='section section-policy'>
+  <div class='container'>
+    <div class='section-policy-text'>
+      {{ site.data[lang].privacypolicy.preamble }}
+      <h2>{{ site.data[lang].privacypolicy.sec-1-title }}</h2>
+      {{ site.data[lang].privacypolicy.sec-1-body }}
+      <h2>{{ site.data[lang].privacypolicy.sec-2-title }}</h2>
+      {{ site.data[lang].privacypolicy.sec-2-body }}
+      <h2>{{ site.data[lang].privacypolicy.sec-3-title }}</h2>
+      {{ site.data[lang].privacypolicy.sec-3-body }}
+      <h2>{{ site.data[lang].privacypolicy.sec-4-title }}</h2>
+      {{ site.data[lang].privacypolicy.sec-4-body }}
+      <h2>{{ site.data[lang].privacypolicy.sec-5-title }}</h2>
+      {{ site.data[lang].privacypolicy.sec-5-body }}
+      <h2>{{ site.data[lang].privacypolicy.sec-6-title }}</h2>
+      {{ site.data[lang].privacypolicy.sec-6-body }}
+      <h2>{{ site.data[lang].privacypolicy.sec-7-title }}</h2>
+      {{ site.data[lang].privacypolicy.sec-7-body }}
+      <h2>{{ site.data[lang].privacypolicy.sec-8-title }}</h2>
+      {{ site.data[lang].privacypolicy.sec-8-body }}
+      <h2>{{ site.data[lang].privacypolicy.sec-9-title }}</h2>
+      {{ site.data[lang].privacypolicy.sec-9-body }}
+      <h2>{{ site.data[lang].privacypolicy.sec-10-title }}</h2>
+      {{ site.data[lang].privacypolicy.sec-10-body }}
+      <h2>{{ site.data[lang].privacypolicy.sec-11-title }}</h2>
+      {{ site.data[lang].privacypolicy.sec-11-body }}
+    </div>
+  </div>
+</div>
+
+<div class='section section-contact' id='contact'>
+  <div class='container'>
+    <div class='row justify-content-md-center mt-5'>
+      <div class='col'>
+        <h3 class='text-center'>{{ site.data[lang].privacypolicy.contact }}</h3>
+      </div>
+    </div>
+    <div class='row justify-content-md-center mt-5'>
+      <div class='col'>
+        <div class='text-center'>
+          <h4><a href='mailto:playtests@moonforgeinsights.com?subject=Hello'>playtests@moonforgeinsights.com</a></h4>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,41 @@
+---
+layout: default
+---
+
+{% assign lang = page.lang | default: 'en' %}
+
+<div class='section section-doc-header'>
+  <div class='container'>
+    <h1>{{ site.data[lang].signup.title }}</h1>
+    <h2>{{ site.data[lang].signup.subtitle }}</h2>
+  </div>
+</div>
+
+<div class='section section-signup'>
+  <div class='container'>
+    <img class='img-fluid rounded mx-auto d-block' src='{{ site.baseurl }}/images/playtesting.png' alt='playing games'>
+    {{ site.data[lang].signup.pitch }}
+    <div class='btn-container text-center my-5'>
+      <a class='btn btn-primary btn-lg' href='https://forms.office.com/r/cTsVEfGemr' role='button' target='_blank' rel='noopener noreferrer'>{{ site.data[lang].signup.button-label }}&ensp;<i class="fas fa-arrow-right"></i></a>
+    </div>
+    {{ site.data[lang].signup.moreinfo }}
+    {{ site.data[lang].signup.faq }}
+  </div>
+</div>
+
+<div class='section section-contact' id='contact'>
+  <div class='container'>
+    <div class='row justify-content-md-center mt-5'>
+      <div class='col'>
+        <h3 class='text-center'>{{ site.data[lang].signup.contact }}</h3>
+      </div>
+    </div>
+    <div class='row justify-content-md-center mt-5'>
+      <div class='col'>
+        <div class='text-center'>
+          <h4><a href='mailto:playtests@moonforgeinsights.com?subject=Hello'>playtests@moonforgeinsights.com</a></h4>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

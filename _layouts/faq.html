@@ -1,0 +1,180 @@
+---
+layout: default
+---
+
+{% assign lang = page.lang | default: 'en' %}
+
+<div class='section section-doc-header'>
+  <div class='container'>
+    <h1>{{ site.data[lang].faq.title }}</h1>
+    <h2>{{ site.data[lang].faq.subtitle }}</h2>
+  </div>
+</div>
+
+<div class='section section-doc-body'>
+  <div class='container'>
+    <div class='accordion accordion-flush' id='faq-accordion'>
+
+      <div class='accordion-item'>
+        <h2 class='accordion-header' id='flush-headingOne'>
+          <button class='accordion-button collapsed' type='button' data-bs-toggle='collapse' data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+            {{ site.data[lang].faq.item-1-q }}
+          </button>
+        </h2>
+        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#faq-accordion">
+          <div class="accordion-body">{{ site.data[lang].faq.item-1-a }}</div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+            {{ site.data[lang].faq.item-2-q }}
+          </button>
+        </h2>
+        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#faq-accordion">
+          <div class="accordion-body">{{ site.data[lang].faq.item-2-a }}</div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+            {{ site.data[lang].faq.item-3-q }}
+          </button>
+        </h2>
+        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#faq-accordion">
+            <div class="accordion-body">{{ site.data[lang].faq.item-3-a }}</div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingFour">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+            {{ site.data[lang].faq.item-4-q }}
+          </button>
+        </h2>
+        <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#faq-accordion">
+          <div class="accordion-body">{{ site.data[lang].faq.item-4-a }}</div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingFive">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+            {{ site.data[lang].faq.item-5-q }}
+          </button>
+        </h2>
+        <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#faq-accordion">
+          <div class="accordion-body">{{ site.data[lang].faq.item-5-a }}</div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingSix">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+            {{ site.data[lang].faq.item-6-q }}
+          </button>
+        </h2>
+        <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#faq-accordion">
+          <div class="accordion-body">{{ site.data[lang].faq.item-6-a }}</div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingSeven">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+            {{ site.data[lang].faq.item-7-q }}
+          </button>
+        </h2>
+        <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven" data-bs-parent="#faq-accordion">
+          <div class="accordion-body">{{ site.data[lang].faq.item-7-a }}</div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingEight">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
+            {{ site.data[lang].faq.item-8-q }}
+          </button>
+        </h2>
+        <div id="flush-collapseEight" class="accordion-collapse collapse" aria-labelledby="flush-headingEight" data-bs-parent="#faq-accordion">
+          <div class="accordion-body">{{ site.data[lang].faq.item-8-a }}</div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingNine">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine">
+            {{ site.data[lang].faq.item-9-q }}
+          </button>
+        </h2>
+        <div id="flush-collapseNine" class="accordion-collapse collapse" aria-labelledby="flush-headingNine" data-bs-parent="#faq-accordion">
+          <div class="accordion-body">{{ site.data[lang].faq.item-9-a }}</div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingTen">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTen" aria-expanded="false" aria-controls="flush-collapseTen">
+            {{ site.data[lang].faq.item-10-q }}
+          </button>
+        </h2>
+        <div id="flush-collapseTen" class="accordion-collapse collapse" aria-labelledby="flush-headingTen" data-bs-parent="#faq-accordion">
+          <div class="accordion-body">{{ site.data[lang].faq.item-10-a }}</div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingEleven">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEleven" aria-expanded="false" aria-controls="flush-collapseEleven">
+            {{ site.data[lang].faq.item-11-q }}
+          </button>
+        </h2>
+        <div id="flush-collapseEleven" class="accordion-collapse collapse" aria-labelledby="flush-headingEleven" data-bs-parent="#faq-accordion">
+          <div class="accordion-body">{{ site.data[lang].faq.item-11-a }}</div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingTwelve">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwelve" aria-expanded="false" aria-controls="flush-collapseTwelve">
+            {{ site.data[lang].faq.item-12-q }}
+          </button>
+        </h2>
+        <div id="flush-collapseTwelve" class="accordion-collapse collapse" aria-labelledby="flush-headingTwelve" data-bs-parent="#faq-accordion">
+          <div class="accordion-body">{{ site.data[lang].faq.item-12-a }}</div>
+        </div>
+      </div>
+
+      <div class='accordion-item'>
+        <h2 class='accordion-header' id='flush-headingThirteen'>
+          <button class='accordion-button collapsed' type='button' data-bs-toggle='collapse' data-bs-target="#flush-collapseThirteen" aria-expanded="false" aria-controls="flush-collapseThirteen">
+            {{ site.data[lang].faq.item-13-q }}
+          </button>
+        </h2>
+        <div id="flush-collapseThirteen" class="accordion-collapse collapse" aria-labelledby="flush-headingThirteen" data-bs-parent="#faq-accordion">
+          <div class="accordion-body">{{ site.data[lang].faq.item-13-a }}</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class='section section-contact' id='contact'>
+  <div class='container'>
+    <div class='row justify-content-md-center mt-5'>
+      <div class='col'>
+        <h3 class='text-center'>{{ site.data[lang].faq.contact }}</h3>
+      </div>
+    </div>
+    <div class='row justify-content-md-center mt-5'>
+      <div class='col'>
+        <div class='text-center'>
+          <h4><a href='mailto:playtests@moonforgeinsights.com?subject=Hello'>playtests@moonforgeinsights.com</a></h4>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -40,12 +40,11 @@
             <a href="{{ baseurl }}/#what-we-do">{{ site.data[lang].menu.what-we-do }}</a>
             <a href="{{ baseurl }}/#about">{{ site.data[lang].menu.about }}</a>
             <a href="{{ baseurl }}/#contact">{{ site.data[lang].menu.contact }}</a>
-            {% if lang == 'en' %}
-              <a href="{{ site.url }}/fr/"><span class='lang-select'>Fr</span></a>
-            {% else if lang == 'fr' %}
-              <a href="{{ site.url }}/"><span class='lang-select'>En</span></a>
-            {% endif %}
+            <a href="{% if page.lang == 'fr' %}{{ page.url | replace_first:'/fr','' }}{% else %}/fr{{ page.url }}{% endif %}">
+              <span class='lang-select'>{% if lang == 'fr' %}En{% else %}Fr{% endif %}</span>
+            </a>
           </nav>
+
         </header>
       </div>
     </div>
