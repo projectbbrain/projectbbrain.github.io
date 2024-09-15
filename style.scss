@@ -372,6 +372,9 @@ nav {
     text-align: center;
     text-decoration: underline;
     max-width: 100%;
+    display: block;
+    word-wrap: break-word;
+    overflow-wrap: anywhere;
   }
   a:hover {
     color: $lightGreen;

@@ -106,6 +106,7 @@ faq:
   item-12-a: "Don't worry, if you filled out the <a href='https://moonforgeinsights.com/signup/'>form</a>, you are already registered in the Moon Squad! We’ll reach out about a study when your gaming profile matches what we need for a study, which depends on the types of games that we’re testing at the time—but spaces might fill up fast! It might just be that we haven’t had the right match yet. Make sure to be as accurate as possible when filling out your profile, so we can match you with the right studies. Also, make sure to check your junk mail just in case!"
   item-13-q: "Who do I reach out to if I have more questions?"
   item-13-a: "You can always send us an email at <a href='mailto:playtests@moonforgeinsights.com'>playtests@moonforgeinsights.com</a>. We're here to help with any questons you have!"
+  action: "Ready to join the Moon Squad? <a href='https://moonforgeinsights.com/signup/'>Sign up here</a>!"
   contact: "Still have questions? Reach out to us any time."
 
 
@@ -187,5 +188,5 @@ signup:
     <p>We're looking for players with all kinds of experiences, backgrounds, and abilities. Whether you're a seasoned pro or just play for fun now and then, your feedback matters. Have your voice heard and help make positive changes!</p>
     <p>Sign up for the Moon Squad today and join our community of passionate gamers who are helping to create the next big thing in gaming!</p>
   "
-  faq: "<p>More questions? Read our FAQ <a href='https://moonforgeinsights.com/faq/'>here</a>.</p>"
+  faq: "<p>More questions? Read our FAQ <a href='https://moonforgeinsights.com/faq/'>here</a>. You can also read our privacy policy <a href='https://moonforgeinsights.com/privacy-policy/'>here</a>.</p>"
   contact: "Want to know more? Get in touch with us."

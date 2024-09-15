@@ -106,6 +106,7 @@ faq:
   item-12-a: "Ne vous inquiétez pas, si vous avez rempli <a href='https://moonforgeinsights.com/fr/signup/'>le questionnaire</a>, vous faites d'ores et déjà partie de la Moon Squad ! Nous vous contacterons quand votre proofil de jeu correspond aux besoins de l'étude, lesquels peuvent varier selon ce que nous testons - les places peuvent partir vite, assurez vous de vérifier vos mails ! C'est également possible que nous n'avons pas encore trouvé la bonne étude pour votre profil. Renseignez votre profil de jeu le plus précisément possible pour que l'on vous associe à une étude pertinente. Et vérifiez votre boîte de courriels indésirables au cas où !"
   item-13-q: "À qui dois-je m'adresser si j'ai d'autres questions ?"
   item-13-a: "Vous pouvez toujours nous envoyer un courriel à l'adresse <a href='mailto:playtests@moonforgeinsights.com'>playtests@moonforgeinsights.com</a>. Nous sommes là pour répondre à toutes vos questions !"
+  action: "Prêt à rejoindre la Moon Squad ?  <a href='https://moonforgeinsights.com/fr/signup/'>Inscrivez-vous ici</a> !"
   contact: "Vous pouvez toujours nous envoyer un courriel à l'adresse :"
 
 
@@ -187,5 +188,5 @@ signup:
     <p>Nous recherchons tout type de joueur. Que tu sois un expert ou un joueur occasionnel, ton avis nous intéresse. Fais entendre ton opinion et contribue au développement de jeux !</p>
     <p>Inscris-toi à la Moon Squad aujourd’hui et rejoins notre communauté de joueurs passionnés qui aident à créer les jeux de demain !</p>
   "
-  faq: "<p>Des questions ? Lis notre FAQ <a href='https://moonforgeinsights.com/fr/faq/'>ici</a>.</p>"
+  faq: "<p>Des questions ? Lis notre FAQ <a href='https://moonforgeinsights.com/fr/faq/'>ici</a>. Vous pouvez consulter l'intégralité de notre politique de confidentialité <a href='https://moonforgeinsights.com/fr/privacy-policy/'>ici</a>.</p>"
   contact: "Vous voulez en savoir plus ? Prenez contact avec nous."
