@@ -36,13 +36,23 @@
             <p class="site-description">{{ site.data[lang].site.desc }}</p>
           </div>
 
-          <nav>
-            <a href="{{ baseurl }}/#what-we-do">{{ site.data[lang].menu.what-we-do }}</a>
-            <a href="{{ baseurl }}/#about">{{ site.data[lang].menu.about }}</a>
-            <a href="{{ baseurl }}/#contact">{{ site.data[lang].menu.contact }}</a>
-            <a href="{% if page.lang == 'fr' %}{{ page.url | replace_first:'/fr','' }}{% else %}/fr{{ page.url }}{% endif %}">
-              <span class='lang-select'>{% if lang == 'fr' %}En{% else %}Fr{% endif %}</span>
-            </a>
+          <nav class='navbar navbar-expand-xxl navbar-dark'>
+            <div class='container-fluid'>
+              <button class='navbar-toggler' type='button' data-bs-toggle='collapse' data-bs-target='#navbarNav' aria-controls='navbarNav' aria-expanded='false' aria-label='Toggle navigation'>
+                <span class='navbar-toggler-icon'></span>
+              </button>
+              <div class='collapse navbar-collapse' id='navbarNav'>
+                <div class='navbar-nav'>
+                  <a class='nav-link' href='{{ baseurl }}/#what-we-do'>{{ site.data[lang].menu.what-we-do }}</a>
+                  <a class='nav-link' href='{{ baseurl }}/#about'>{{ site.data[lang].menu.about }}</a>
+                  <a class='nav-link' href='{{ baseurl }}/signup'>{{ site.data[lang].menu.signup }}</a>
+                  <a class='nav-link' href='{{ baseurl }}/#contact'>{{ site.data[lang].menu.contact }}</a>
+                  <a class='nav-link' href="{% if page.lang == 'fr' %}{{ page.url | replace_first:'/fr','' }}{% else %}/fr{{ page.url }}{% endif %}">
+                    <span class='lang-select'>{% if lang == 'fr' %}En{% else %}Fr{% endif %}</span>
+                  </a>
+                </div>
+              </div>
+            </div>
           </nav>
 
         </header>
